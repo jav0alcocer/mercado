@@ -13,7 +13,7 @@ today=day+"-"+month+"-"+year
 HOST = "189.146.252.20"
 user = "intelico"
 password = "intelico"
-file = open(HOST + ".txt","w+")
+file = open(HOST + '_' +today+".txt","w+")
 log = ""
 tn = telnetlib.Telnet(HOST)
 tn.read_until("User: ")
