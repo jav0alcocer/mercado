@@ -2,6 +2,14 @@
 import getpass
 import sys
 import telnetlib
+import time
+
+##getting system date 
+day=time.strftime('%d')
+month=time.strftime('%m')
+year=time.strftime('%Y')
+today=day+"-"+month+"-"+year
+
 HOST = "189.146.252.20"
 user = "intelico"
 password = "intelico"
